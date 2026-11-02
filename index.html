@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Al Saad Bakers, Bhutta Village Karachi. Fresh bakery products, cakes, pastries and snacks.">
+    <title>Al Saad Bakers | Freshness in Every Bite</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon"><i class="fa-solid fa-bread-slice"></i></span>
+            <span>AL SAAD <small>BAKERS</small></span>
+        </a>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Our Menu</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+            <button id="themeToggle" class="theme-toggle" aria-label="Change theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <a href="https://wa.me/923312530026" class="order-btn">
+                Order Now
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+            <span class="eyebrow">WELCOME TO AL SAAD BAKERS</span>
+
+            <h1>Freshly Baked.<br>
+                <span>Lovingly Made.</span>
+            </h1>
+
+            <p>
+                Discover delicious bakery treats, fresh snacks and
+                authentic flavours. Every bite brings a little happiness.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="primary-btn">Explore Menu <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#about" class="secondary-btn">Discover More</a>
+            </div>
+
+            <div class="hero-rating">
+                <div class="stars">★★★★★</div>
+                <div>
+                    <strong>4.2/5</strong>
+                    <small>From 188 Google reviews</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1000"
+                 alt="Freshly baked bakery bread">
+            <div class="floating-card">
+                <i class="fa-solid fa-heart"></i>
+                <div>
+                    <strong>Made with care</strong>
+                    <small>Fresh bakery goodness</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
+    <div class="container feature-grid">
+
+        <div class="feature">
+            <i class="fa-solid fa-bread-slice"></i>
+            <h3>Fresh Bakery</h3>
+            <p>Delicious bakery products.</p>
+        </div>
+
+        <div class="feature">
+            <i class="fa-solid fa-star"></i>
+            <h3>Authentic Taste</h3>
+            <p>Flavours customers appreciate.</p>
+        </div>
+
+        <div class="feature">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            <h3>Quality Service</h3>
+            <p>Friendly customer service.</p>
+        </div>
+
+        <div class="feature">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <h3>Takeaway</h3>
+            <p>Take your favourites home.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+
+<section class="section about" id="about">
+    <div class="container about-grid">
+
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=900"
+                 alt="Bakery pastries">
+        </div>
+
+        <div class="about-content">
+            <span class="eyebrow">OUR STORY</span>
+
+            <h2>A Little Bakery,<br><span>A Lot of Happiness.</span></h2>
+
+            <p>
+                Welcome to Al Saad Bakers! Located in Bhutta Village,
+                Karachi, we are a local bakery offering bakery products
+                and tasty snacks for our customers.
+            </p>
+
+            <p>
+                We believe in authentic taste, hygienic food and
+                cooperative customer service.
+            </p>
+
+            <div class="about-points">
+                <p><i class="fa-solid fa-check"></i> Authentic taste</p>
+                <p><i class="fa-solid fa-check"></i> Takeaway available</p>
+                <p><i class="fa-solid fa-check"></i> Friendly service</p>
+            </div>
+
+            <a href="#contact" class="primary-btn">Find Our Bakery</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- MENU -->
+
+<section class="section menu-section" id="menu">
+    <div class="container">
+
+        <div class="section-title">
+            <span class="eyebrow">TASTE THE GOODNESS</span>
+            <h2>Explore Our <span>Bakery</span></h2>
+            <p>Discover some popular bakery favourites.</p>
+        </div>
+
+        <div class="menu-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="snacks">Snacks</button>
+            <button class="filter-btn" data-filter="bakery">Bakery</button>
+            <button class="filter-btn" data-filter="sweets">Sweets</button>
+        </div>
+
+        <div class="menu-grid">
+
+            <article class="product-card" data-category="snacks">
+                <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=700" alt="Samosas">
+                <div class="product-info">
+                    <span class="product-category">SNACKS</span>
+                    <h3>Fresh Samosas</h3>
+                    <p>Crispy and delicious traditional snack.</p>
+                    <a href="https://wa.me/923312530026" class="product-link">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="bakery">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=700" alt="Fresh bread">
+                <div class="product-info">
+                    <span class="product-category">BAKERY</span>
+                    <h3>Fresh Bread</h3>
+                    <p>Soft and tasty bakery bread.</p>
+                    <a href="https://wa.me/923312530026" class="product-link">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="sweets">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700" alt="Chocolate cake">
+                <div class="product-info">
+                    <span class="product-category">SWEETS</span>
+                    <h3>Special Cake</h3>
+                    <p>A sweet treat for special occasions.</p>
+                    <a href="https://wa.me/923312530026" class="product-link">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="snacks">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700" alt="Pizza">
+                <div class="product-info">
+                    <span class="product-category">SNACKS</span>
+                    <h3>Pizza</h3>
+                    <p>A delicious savoury option.</p>
+                    <a href="https://wa.me/923312530026" class="product-link">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="bakery">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=700" alt="Croissants">
+                <div class="product-info">
+                    <span class="product-category">BAKERY</span>
+                    <h3>Fresh Pastries</h3>
+                    <p>Enjoy delicious baked pastries.</p>
+                    <a href="https://wa.me/923312530026" class="product-link">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="product-card" data-category="sweets">
+                <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=700" alt="Cupcakes">
+                <div class="product-info">
+                    <span class="product-category">SWEETS</span>
+                    <h3>Cupcakes</h3>
+                    <p>Sweet little treats for everyone.</p>
+                    <a href="https://wa.me/923312530026" class="product-link">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+        </div>
+
+        <p class="menu-note">Menu items are illustrative. Contact the bakery to confirm availability and prices.</p>
+
+    </div>
+</section>
+
+<!-- REVIEWS -->
+
+<section class="section reviews" id="reviews">
+    <div class="container">
+
+        <div class="section-title">
+            <span class="eyebrow">CUSTOMER FEEDBACK</span>
+            <h2>Our Customers <span>Love Us</span></h2>
+            <p>Customer feedback shared on Google.</p>
+        </div>
+
+        <div class="review-summary">
+            <strong>4.2</strong>
+            <div>
+                <div class="stars">★★★★★</div>
+                <p>Based on 188 Google reviews</p>
+            </div>
+        </div>
+
+        <div class="review-grid">
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"Experienced authentic taste. Hygienic food. Staff is cooperative."</p>
+                <h4>Sadiq Jamal 786</h4>
+                <small>Google Local Guide</small>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"Chicken patties were very fresh. All the refreshments were appreciated."</p>
+                <h4>Dilawer Khan</h4>
+                <small>Google Local Guide</small>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★☆</div>
+                <p>"An old bakery with a variety of bakery products and affordable prices."</p>
+                <h4>Naveed Hussain</h4>
+                <small>Google Local Guide</small>
+            </div>
+
+        </div>
+
+        <div class="review-button">
+            <a href="https://www.google.com/maps/search/?api=1&query=Al+Saad+Bakers+Bhutta+Village+Karachi"
+               target="_blank" rel="noopener" class="secondary-btn">
+                View on Google Maps
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+
+<section class="section contact" id="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <span class="eyebrow">COME VISIT US</span>
+            <h2>Find <span>Our Bakery</span></h2>
+            <p>We look forward to serving you.</p>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h3>Our Location</h3>
+                        <p>Noor Deen Khan Rd, Port Trust Lines, Bhutta Village, Karachi, 75620, Pakistan.</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h3>Phone Number</h3>
+                        <p>+92 331 2530026</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <h3>Opening Hours</h3>
+                        <p>Open daily. Closes at 1:00 AM (confirm daily hours).</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div>
+                        <h3>Available Service</h3>
+                        <p>Takeaway available</p>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/923312530026" class="primary-btn contact-btn">
+                    <i class="fa-brands fa-whatsapp"></i> Contact on WhatsApp
+                </a>
+
+            </div>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps?q=Noor+Deen+Khan+Road+Port+Trust+Lines+Bhutta+Village+Karachi&output=embed"
+                    width="100%"
+                    height="400"
+                    style="border:0"
+                    loading="lazy"
+                    title="Al Saad Bakers location">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+    <div class="container footer-content">
+
+        <a href="#home" class="logo footer-logo">
+            <i class="fa-solid fa-bread-slice"></i>
+            AL SAAD <small>BAKERS</small>
+        </a>
+
+        <p>Freshness in Every Bite.</p>
+
+        <div class="social-links">
+            <a href="https://wa.me/923312530026" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Al+Saad+Bakers+Karachi" aria-label="Google Maps"><i class="fa-solid fa-location-dot"></i></a>
+        </div>
+
+        <p class="copyright">
+            © <span id="year"></span> Al Saad Bakers. All Rights Reserved.
+        </p>
+
+    </div>
+</footer>
+
+<a href="https://wa.me/923312530026" class="floating-whatsapp" aria-label="Order on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
